@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    
+}
+
+h1 {
+    color: rgb(15, 15, 48);
+    font-family: cursive; 
+    margin: auto;
+    transition: 0.25s;
+}
+
+h1:hover {
+    color: rgb(138, 138, 17);
+}
+
+.fa-drum {
+    transform: scale(1.15);
+    margin: auto 0.5rem;
+
+}
+
+#drumkit {
+    margin: 1.5rem auto;
+    color: rgb(15, 15, 48);
+    text-align: center;
+}
+h2 {
+    margin: auto;
+}
+a:visited {
+    color: rgb(15,15,48);
+
+}
+i {
+    font-weight: bold;
+}
+.element {
+    font-family: sans-serif;
+    display: inline-grid;
+    place-content: center;
+    border-radius: 0.5rem;
+    width: 10vmax;
+    height: 10vmax;
+    padding: 1.5vmax 2.5vmax;
+    margin: 1.5vmax;
+    cursor: pointer;
+    transition: 0.15s;
+    box-shadow: 15px 15px 25px lightgray, -15px -15px 25px rgb(143, 136, 136);
+}
+.active {
+    background-color: rgb(138, 138, 17);
+    transform: scale(1.05);
+    transition: 0.15s;
+}
